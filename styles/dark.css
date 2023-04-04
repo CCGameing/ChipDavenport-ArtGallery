@@ -1,0 +1,87 @@
+html {
+  background-color: #333533;
+}
+
+body {
+  margin: 0px;
+  margin-left: 15%;
+  color: white;
+}
+
+nav {
+  background-color: #242423;
+  display: flex;
+  position: fixed;
+  left: 0%;
+  width: 10%;
+  height: 97.5%;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2.5%;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.2vw;
+  color: #F5CB5C;
+}
+
+a:hover {
+  transition-duration: 1s;
+  text-decoration: underline;
+}
+
+#toggle {
+  width: 40%;
+  align-self: center;
+  filter: invert();
+}
+
+header {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  height: 15vh;
+  padding-left: 2%;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5vw;
+  color: #F5CB5C;
+}
+
+.chip_davenport {
+  height: 100vh;
+  background-image: linear-gradient(to left, #333533, black);
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+}
+
+.chip_davenport img {
+  width: 40%;
+}
+
+desc {
+  color: #F5CB5C;
+  font-size: 2vw;
+}
+
+main {
+  min-height: 50vh;
+  margin: 5%;
+  font-size: 1.4vw;
+}
+
+footer {
+  height: 20vh;
+  display: flex;
+  font-size: 1.5vw;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: linear-gradient(to bottom, #333533, black 25%);
+}
+
+audio {
+  display: none;
+}
